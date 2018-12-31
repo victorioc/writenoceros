@@ -7,9 +7,33 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
   </head>
 
   <body>
+    <header class="site__header grid--flush">
+      <nav class="site__header-nav grid__cell 1/7">
+        Home
+      </nav>
+      <nav class="site__header-nav grid__cell 1/7">
+        About Us
+      </nav>
+      <nav class="site__header-nav grid__cell 1/7">
+        Philosophy
+      </nav>
+      <nav class="site__header-nav grid__cell 1/7">
+        Services
+      </nav>
+      <nav class="site__header-nav grid__cell 1/7">
+        Blog
+      </nav>
+      <nav class="site__header-nav grid__cell 1/7">
+        Resources
+      </nav>
+      <nav class="site__header-nav grid__cell 1/7">
+        Contact
+      </nav>
+    </header>
     <%= yield %>
   </body>
 </html>
