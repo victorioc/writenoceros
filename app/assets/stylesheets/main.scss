@@ -1,3 +1,5 @@
+$header-main: #636946;
+
 * { 
 margin: 0;
 padding: 0;
@@ -21,4 +23,29 @@ color: #343633;
 
 .site__header-nav-active {
 	color: #BC6842;
+}
+
+.slide { 
+	padding-top: 25px;
+	height: calc(100vh - (18px + 5vh + 25px))
+}
+
+.home-logo {
+	display: block;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Gloria Hallelujah', cursive;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 36px;
+	color: $header-main;
+
+}
+
+h2 {
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+	color: $header-main;
 }
