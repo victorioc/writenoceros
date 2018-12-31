@@ -37,7 +37,6 @@ color: #343633;
 
 h1 {
 	font-family: 'Gloria Hallelujah', cursive;
-	text-transform: uppercase;
 	text-align: center;
 	font-size: 36px;
 	color: $header-main;
@@ -49,3 +48,61 @@ h2 {
 	text-align: center;
 	color: $header-main;
 }
+
+.about-banner {
+	display: block;
+	// float:right;
+}
+
+.about-banner-text {
+	display: inline-block;
+	float: right;
+}
+.about-banner * {
+	text-align: right;
+}
+.about-banner p {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: $header-main;
+}
+
+.about-banner-logo {
+	height: 14vh;
+	width: auto;
+	display: inline;
+	float:right;
+}
+
+.about-all {
+	position: relative;
+	top: 15vh;
+	// padding: 0px 50px;
+	display: block;
+
+}
+
+.about-all img {
+	display: inline-block;
+}
+
+
+.about-all-photo {
+	width: 100%;
+	height: auto;
+}
+
+.test {
+	background-color: pink;
+	display: inline-block;
+	height: 400px;
+	width: 40%;
+	clear: both;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
