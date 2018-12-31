@@ -9,7 +9,6 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
   </head>
-
   <body>
     <header class="site__header grid--flush">
       <nav class="site__header-nav grid__cell 1/7">
@@ -35,5 +34,8 @@
       </nav>
     </header>
     <%= yield %>
+    <script type="text/javascript">
+      $( "nav:contains('<%= @active_nav %>')" ).addClass("site__header-nav-active");
+    </script>
   </body>
 </html>
