@@ -51,7 +51,7 @@ h2 {
 
 .about-banner {
 	display: block;
-	// float:right;
+	margin-bottom: 15px;
 }
 
 .about-banner-text {
@@ -74,29 +74,48 @@ h2 {
 }
 
 .about-all {
-	position: relative;
-	top: 15vh;
-	// padding: 0px 50px;
+	padding: 0px 20px;
 	display: block;
 
 }
 
-.about-all img {
-	display: inline-block;
+.about-all * {
+	padding: 0;
 }
-
 
 .about-all-photo {
 	width: 100%;
 	height: auto;
 }
 
-.test {
-	background-color: pink;
-	display: inline-block;
-	height: 400px;
-	width: 40%;
-	clear: both;
+.about-bucket {
+	height: 500px;
+}
+
+.about-bucket-picture {
+	display: block;
+	margin: 0 auto;
+}
+
+.about-bucket-sub-container {
+	width: 100%;
+}
+
+.about-bucket-subtitle {
+	display: block;
+	height: 75px;
+	margin-top: 10px;
+}
+
+.about-bucket-subtitle-hed {
+	font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+.about-bucket-subtitle-subhed {
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+	
 }
 
 .group:after {
