@@ -86,6 +86,7 @@ h2.home__services:hover {
 .about-all {
 	padding: 0px 20px;
 	display: block;
+	height: 100%;
 
 }
 
@@ -99,7 +100,24 @@ h2.home__services:hover {
 }
 
 .about-bucket {
-	height: 500px;
+	height: 100%;
+	padding-top: 10px;
+}
+
+.side__banner {
+	background-color: #C9623A;
+}
+
+.side__banner-logo {
+	height: 300px;
+	display: block;
+	margin: 0 auto;
+}
+
+h1.side__banner {
+	color: #343633;
+	font-family: 'Gloria Hallelujah', cursive;
+	background-color: inherit;
 }
 
 .about-bucket-picture {
@@ -129,11 +147,13 @@ h2.home__services:hover {
 }
 
 .about-bucket-body {
-	color: #696F4E;
+	color: #343633;
 	font-size: 20px;
 	text-indent: 30px;
 	margin-bottom: 5px;
 	font-family: 'Libre Baskerville', serif;
+	position: relative;
+	left: 36px;
 }
 
 .group:after {
