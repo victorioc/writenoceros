@@ -31,8 +31,11 @@ a {
 }
 
 .slide { 
-	padding-top: 25px;
-	height: calc(100vh - (18px + 5vh + 25px))
+	height: 100vh;
+}
+
+.slide-first {
+	height: calc(100vh - 59px);
 }
 
 .home-logo {
@@ -84,7 +87,6 @@ h2.home__services:hover {
 }
 
 .about-all {
-	padding: 0px 20px;
 	display: block;
 	height: 100%;
 
@@ -102,10 +104,15 @@ h2.home__services:hover {
 .about-bucket {
 	height: 100%;
 	padding-top: 10px;
+	width: 66%;
+	display: inline-block;
 }
 
 .side__banner {
 	background-color: #C9623A;
+	width: 33%;
+	display: inline-block;
+	height: 100%;
 }
 
 .side__banner-logo {
@@ -114,7 +121,7 @@ h2.home__services:hover {
 	margin: 0 auto;
 }
 
-h1.side__banner {
+h1.side__banner-header {
 	color: #343633;
 	font-family: 'Gloria Hallelujah', cursive;
 	background-color: inherit;
@@ -152,8 +159,6 @@ h1.side__banner {
 	text-indent: 30px;
 	margin-bottom: 5px;
 	font-family: 'Libre Baskerville', serif;
-	position: relative;
-	left: 36px;
 }
 
 .group:after {
@@ -162,4 +167,20 @@ h1.side__banner {
   clear: both;
 }
 
+
+.onethird-text {
+	width: 33%;
+	height: 100%;
+	display: inline-block;
+}
+
+.onethird-highlight {
+	height: 100%;
+	width: 33%;
+	display: inline-block;
+}
+
+.green {
+	background-color: #939F5C;
+}
 
